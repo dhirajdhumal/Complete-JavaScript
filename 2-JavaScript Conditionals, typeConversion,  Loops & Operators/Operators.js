@@ -8,6 +8,7 @@
             4) Logical Operators
             5) Bitwise Operators
             6) Conditional (Ternary) Operator
+            7) Increment and Decrement Operators
 */
 
 /*
@@ -146,3 +147,31 @@ console.log("Is Adult: " + isAdult); // true
 let score = 85;
 let grade = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : score >= 60 ? "D" : "F";
 console.log("Grade: " + grade); // B
+
+/*
+    7) Increment and Decrement Operators
+        -The increment operator (++) is used to increase the value of a variable by 1.
+        -The decrement operator (--) is used to decrease the value of a variable by 1.
+
+        There are two types of increment and decrement operators:
+            1) Prefix Increment and Decrement Operators
+                -The prefix increment operator (++variable) increases the value of the variable by 1 before it is used in an expression.
+                -The prefix decrement operator (--variable) decreases the value of the variable by 1 before it is used in an expression.
+            2) Postfix Increment and Decrement Operators
+                -The postfix increment operator (variable++) increases the value of the variable by 1 after it is used in an expression.
+                -The postfix decrement operator (variable--) decreases the value of the variable by 1 after it is used in an expression.
+*/
+console.log("\nIncrement and Decrement Operators");
+let a = 5;
+console.log("Initial Value of a: " + a);
+console.log("Postfix Increment (a++): " + a++); // 5
+console.log("Value of a after postfix increment: " + a); // 6
+console.log("Prefix Increment (++a): " + ++a); // 7
+console.log("Value of a after prefix increment: " + a); // 7
+
+let b = 10;
+console.log("Initial Value of b: " + b);
+console.log("Postfix Decrement (b--): " + b--); // 10
+console.log("Value of b after postfix decrement: " + b); // 9
+console.log("Prefix Decrement (--b): " + --b); // 8
+console.log("Value of b after prefix decrement: " + b); // 8
