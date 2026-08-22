@@ -140,6 +140,9 @@ console.log(names.split(",")); // it will split the string into an array of subs
 const surnames = "Dhumal Shinde Jadhav Patil";
 console.log(surnames.split(" ")); // it will split the string into an array of substrings based on the separator " "
 
+
+
+
 /*
     date and time methods
         - it is used to get the current date and time in JavaScript.
