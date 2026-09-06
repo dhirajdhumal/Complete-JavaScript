@@ -6,6 +6,8 @@
         -Javascript is a single-threaded, non-blocking, and asynchronous programming language that is used to create web applications.
         -Javascript is a multi-paradigm programming language that supports object-oriented, imperative, and functional programming styles.
 
+        -because of WEB APIs, Javascript is a multi-threaded programming language that is used to create web applications.
+
 
 
     Variables in Javascript
