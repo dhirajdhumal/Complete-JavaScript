@@ -1,4 +1,13 @@
 /*
+    Javascript
+        -Javascript is a programming language that is used to make web pages interactive.
+        -Javascript is a client-side scripting language that is used to create dynamic web pages.
+        -Javascript is a high-level, interpreted programming language that is used to create web applications.
+        -Javascript is a single-threaded, non-blocking, and asynchronous programming language that is used to create web applications.
+        -Javascript is a multi-paradigm programming language that supports object-oriented, imperative, and functional programming styles.
+
+
+
     Variables in Javascript
     -variables are containers for storing data values
     -variables are declared using the var, let, or const keywords
