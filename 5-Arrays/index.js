@@ -216,8 +216,8 @@ console.log(others); // [3, 4, 5]
         3)rest operator
             -it is used to collect the remaining elements of an array into a new array.
             -it is used to collect the remaining elements of an array into a new array, while also allowing you to extract values from the array and assign them to variables in a single line of code.
-            -example: let arr = [1,2,3,4,5]; let [a, b, ...rest] = arr; console.log(a); // 1 console.log(b); // 2 console.log(rest); // [3, 4, 5]
-*/
+            -example: let arr = [1,2,3,4,5]; let arr1 = [...arr]; let arr2 = [a, b, ...rest] = arr; console.log(a); // 1 console.log(b); // 2 console.log(rest); // [3, 4, 5]
+*/ 
 
 
 
